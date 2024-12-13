@@ -55,6 +55,7 @@ package arrays.easy
 /**
  * Solución 1:
  */
+
 fun tournamentWinner(competitions: List<List<String>>, results: List<Int>): String {
     var currentBestTeam = ""
     val scores = hashMapOf(currentBestTeam to 0)
