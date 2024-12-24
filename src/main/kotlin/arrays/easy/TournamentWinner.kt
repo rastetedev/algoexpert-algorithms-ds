@@ -52,10 +52,6 @@ package arrays.easy
  * donde N es el número de competiciones y K es el número de equipos.
  */
 
-/**
- * Solución 1:
- */
-
 fun tournamentWinner(competitions: List<List<String>>, results: List<Int>): String {
     var currentBestTeam = ""
     val scores = hashMapOf(currentBestTeam to 0)

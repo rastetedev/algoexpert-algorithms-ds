@@ -46,10 +46,6 @@ package arrays.easy
  * donde N es el número de monedas a tu disposición.
  */
 
-/**
- * Solución 1:
- */
-
 fun nonConstructibleChange(coins: MutableList<Int>): Int {
     coins.sort()
 

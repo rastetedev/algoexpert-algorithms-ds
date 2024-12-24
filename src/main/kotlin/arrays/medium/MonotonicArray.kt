@@ -35,6 +35,7 @@ package arrays.medium
 
 /**
  * Solución 1:
+ *
  * ¿Es estrictamente creciente o decreciente?
  */
 

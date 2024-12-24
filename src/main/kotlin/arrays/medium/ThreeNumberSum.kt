@@ -40,10 +40,6 @@ package arrays.medium
  * donde N es el número de monedas a tu disposición.
  */
 
-/**
- * Solución 1:
- */
-
 fun threeNumberSum(numbers: MutableList<Int>, targetSum: Int): List<List<Int>> {
     numbers.sort()
     val tripletList = mutableListOf<List<Int>>()

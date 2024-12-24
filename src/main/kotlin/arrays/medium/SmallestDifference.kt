@@ -36,8 +36,6 @@ package arrays.medium
  */
 
 /**
- * Solución 1:
- *
  * Nos valemos de la seguridad que nos da el tener los valores ordenados ascendentemente. De esa forma vamos moviendo
  * los punteros necesarios para acortar la diferencia.
  */

@@ -83,6 +83,10 @@ fun spiralTraverseFirstSol(matrix: List<List<Int>>): List<Int> {
     return result
 }
 
+/**
+ * Solución 2:
+ */
+
 fun spiralTraverseSecondSol(matrix: List<List<Int>>): List<Int> {
     val result = mutableListOf<Int>()
 

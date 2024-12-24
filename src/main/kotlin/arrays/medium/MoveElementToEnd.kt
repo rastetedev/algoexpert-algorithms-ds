@@ -33,10 +33,6 @@ package arrays.medium
  */
 
 /**
- * Solución 1:
- * O(n) time
- * O(1) space
- *
  * Aunque hacemos un while interno a otro, no estamos recorriendo nuevamente cada elemento. Solo pasamos una vez por
  * cada número. Por eso sigue manteniéndose una complejidad lineal en cuanto a tiempo.
  */

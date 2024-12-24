@@ -31,10 +31,6 @@ package arrays.easy
  * donde W es el ancho de la matrix y H es la altura.
  */
 
-/**
- * Solución 1:
- */
-
 fun transposeMatrix(matrix: MutableList<MutableList<Int>>): MutableList<MutableList<Int>> {
     val transposeMatrix: MutableList<MutableList<Int>> = mutableListOf()
 

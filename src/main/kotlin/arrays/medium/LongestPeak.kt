@@ -36,7 +36,7 @@ package arrays.medium
  * donde N es el tamaño del array.
  */
 
-fun longestPeakSol(numbers: List<Int>): Int {
+fun longestPeak(numbers: List<Int>): Int {
 
     var longestPeak = 0
 
