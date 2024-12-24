@@ -25,16 +25,20 @@ package arrays.medium
  * hacia la derecha (aumentarlo) siempre que no apunte al número entero a mover.
  * Cuando ambos punteros no se muevan, intercambie sus valores en su lugar. Repita este proceso hasta que los punteros
  * se pasen entre sí.
+ *
+ * Time & Space Complexity óptimo:
+ * O(n) time
+ * O(1) space
+ * donde N es el tamaño del array.
  */
 
 /**
- * Solution 1:
+ * Solución 1:
  * O(n) time
  * O(1) space
  *
  * Aunque hacemos un while interno a otro, no estamos recorriendo nuevamente cada elemento. Solo pasamos una vez por
  * cada número. Por eso sigue manteniéndose una complejidad lineal en cuanto a tiempo.
- *
  */
 
 fun moveElementsToEnd(numbers: MutableList<Int>, toMove: Int): List<Int> {

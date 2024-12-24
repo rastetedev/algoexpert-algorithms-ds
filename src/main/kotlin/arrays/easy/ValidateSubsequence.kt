@@ -36,10 +36,8 @@ package arrays.easy
 
 /**
  * Solución 1:
- * O(n) time
- * O(1) space
  *
- * Solución en base a las Pistas
+ * Solución con base en las Pistas
  */
 
 fun validateSubsequenceFirstSol(array: List<Int>, subSequence: List<Int>): Boolean {
@@ -54,8 +52,6 @@ fun validateSubsequenceFirstSol(array: List<Int>, subSequence: List<Int>): Boole
 
 /**
  * Solución 2:
- * O(n) time
- * O(1) space
  */
 
 fun validateSubsequenceSecondSol(array: List<Int>, subSequence: List<Int>): Boolean {
