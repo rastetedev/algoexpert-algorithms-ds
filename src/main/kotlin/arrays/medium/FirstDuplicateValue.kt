@@ -37,6 +37,11 @@ import kotlin.math.abs
  * valor y hacerlo negativo (multiplicándole -1). En otras palabras, en el índice [N-1] irá el valor -N.
  * Ya que los enteros normalmente no son negativos, la primera vez que encuentres un valor negativo en el índice que un
  * entero es mapeado, sabrás que ese entero ya fue visto anteriormente.
+ *
+ * Time & Space Complexity óptimo:
+ * O(n) time
+ * O(1) space
+ * donde N es el tamaño del array.
  */
 
 /**
@@ -82,7 +87,7 @@ fun firstDuplicateValueSecondSol(numbers: MutableList<Int>): Int {
 /**
  * Solución 3:
  * O(n) time
- * O(n) space
+ * O(1) space
  * Haciendo uso de las dos indicaciones especiales:
  * - Los valores del array van desde el 1 hasta el n, siendo n la logitud del array.
  * - El array de entrada es mutable.
