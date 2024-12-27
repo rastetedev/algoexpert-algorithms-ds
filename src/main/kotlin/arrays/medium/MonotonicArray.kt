@@ -10,7 +10,7 @@ package arrays.medium
  * Tenga en cuenta que los arrays vacíos y los arrays de un elemento son monótonas.
  *
  * Parámetros de ejemplo:
- * array = [-1, -5, -10, -1100, -1100, -1101, -1102, -9001]
+ * numbers = [-1, -5, -10, -1100, -1100, -1101, -1102, -9001]
  *
  * Resultado de ejemplo:
  * true

@@ -11,7 +11,7 @@ package arrays.medium
  * De manera similar, los enteros 1,2,3 no forman un pico porque no hay ningún valor decreciente después del 3.
  *
  * Parámetros de ejemplo:
- * array = [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]
+ * numbers = [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]
  *
  * Resultado de ejemplo:
  * 6 // 0, 10, 6, 5, -1, -3

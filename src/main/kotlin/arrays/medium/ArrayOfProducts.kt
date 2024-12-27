@@ -8,7 +8,7 @@ package arrays.medium
  * Se espera que se resuelva este problema sin ninguna clase de división.
  *
  * Parámetros de ejemplo:
- * input = [5, 1, 4, 2]
+ * numbers = [5, 1, 4, 2]
  *
  * Resultado de ejemplo:
  * [8, 40, 10, 20]
