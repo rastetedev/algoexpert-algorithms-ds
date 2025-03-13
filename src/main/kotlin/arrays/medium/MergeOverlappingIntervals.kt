@@ -37,28 +37,23 @@ import kotlin.math.max
  */
 
 fun mergeOverlappingIntervals(intervals: List<List<Int>>): List<List<Int>> {
-    //Sorteamos los intervalos por su valor inicial
-    var sortedIntervals =
-        intervals.toMutableList().sortedWith { firstList, secondList -> firstList[0].compareTo(secondList[0]) }
-    //Hacemos que cada intervalo sea mutable
-    sortedIntervals = sortedIntervals.map { it.toMutableList() }
 
     val mergedIntervals = mutableListOf<MutableList<Int>>()
+    val sortedIntervals = intervals.sortedBy { it.first() }.toMutableList().map { it.toMutableList() }
+    var currentInterval = sortedIntervals[0]
 
-    var currentInterval = sortedIntervals.first()
-    //Agregamos el primer intervalo a nuestra lista de salida.
     mergedIntervals.add(currentInterval)
-
-    for (nextInterval in sortedIntervals) {
+    for (interval in sortedIntervals) {
         val (_, currentIntervalEnd) = currentInterval
-        val (nextIntervalStart, nextIntervalEnd) = nextInterval
+        val (nextIntervalStart, nextIntervalEnd) = interval
 
         if (currentIntervalEnd >= nextIntervalStart) {
             currentInterval[1] = max(currentIntervalEnd, nextIntervalEnd)
         } else {
-            currentInterval = nextInterval
+            currentInterval = interval
             mergedIntervals.add(currentInterval)
         }
     }
+
     return mergedIntervals
 }
